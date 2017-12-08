@@ -8,7 +8,7 @@ number = 600851475143
 primefactor = 0
 
 while 2 < check
-# check for divisible integers of number that are odd and stop when a primefactor has been found (I filtered out evens because the only even prime number is two)
+# look for divisible integers of number that are odd and stop when a primefactor has been found (I filtered out evens because the only even prime number is two)
   if number % check == 0 && check % 2 != 0 && primefactor == 0
     subcheck = check
     while subcheck > 1
