@@ -12,17 +12,16 @@ while 2 < check
   if number % check == 0 && check % 2 != 0 && primefactor == 0
     subcheck = check
     while subcheck > 1
-      subcheck -= 1
+      subcheck -= 2
       if check % subcheck == 0
-# if you find an integer that check is divisible by, stop checking the current value of check (this works because I've already ruled out one and checks value)
+# if you find an odd integer that check is divisible by, stop checking the current value of check (this works because I've already ruled out one and checks value)
         break
-      elsif subcheck == 2
-# if you've tried dividing every number lower then check and reached two then you've got yourself a prime
+      elsif subcheck < 4
+# if you've tried dividing every ood integer lower then check and reached three (or less) then you've got yourself a prime
         primefactor = check
       end
     end
   end
-# I'm subtracting by two instead of the usual one here to keep check's value odd
   check -= 2
 end
 
