@@ -1,5 +1,5 @@
-The prime factors of 13195 are 5, 7, 13 and 29.
-What is the largest prime factor of the number 600851475143 ?
+
+I've stopped uploading smaller non-github based assignments since the Firehouse Project's free prep challenges but I really liked this Ruby question from Project Euler.
 
 ~ taken from https://projecteuler.net/problem=3
 
